@@ -109,7 +109,11 @@ export const Bighead = () => {
                 <div
                   key={'deez' + el.name}
                   id={el.name}
-                  className={`${router.pathname == el.link ? "border-primary-yellow bg-textColor-secondary-darkGray" : " border-transparent"} group flex items-center h-full px-[35px] border-b-2 hover:cursor-pointer text-white`}
+                  className={`${
+                    router.pathname == el.link
+                      ? 'border-primary-yellow bg-textColor-secondary-darkGray'
+                      : ' border-transparent'
+                  } group flex items-center h-full px-[35px] border-b-2 hover:cursor-pointer text-white`}
                 >
                   <a>
                     <Typography
@@ -125,7 +129,7 @@ export const Bighead = () => {
           })}
         </div>
         <div id="icons" className="flex gap-[30px]">
-          <Link href={'/'}>
+          <Link href={'https://www.facebook.com/shambala.mn/'}>
             <a className="hover:scale-125">
               {handleIcon({
                 icon: 'facebook',
@@ -144,7 +148,7 @@ export const Bighead = () => {
               })}
             </a>
           </Link>
-          <Link href={'/'}>
+          <Link href={'mailto:shambala2056team@gmail.com?subject=Subject&body=Body%20goes%20here'}>
             <a className="hover:scale-125">
               {handleIcon({
                 icon: 'mail',
@@ -153,7 +157,7 @@ export const Bighead = () => {
               })}
             </a>
           </Link>
-          <Link href={'/'}>
+          <Link href={'https://www.instagram.com/shambala2056/'}>
             <a className="hover:scale-125">
               {handleIcon({
                 icon: 'instagram',
