@@ -130,7 +130,7 @@ export const Bighead = () => {
         </div>
         <div id="icons" className="flex gap-[30px]">
           <Link href={'https://www.facebook.com/shambala.mn/'}>
-            <a className="hover:scale-125">
+            <a className="hover:scale-125" target="_blank">
               {handleIcon({
                 icon: 'facebook',
                 size: 16,
@@ -139,8 +139,8 @@ export const Bighead = () => {
             </a>
           </Link>
 
-          <Link href={'/'}>
-            <a className="hover:scale-125">
+          <Link href={'https://www.twitter.com'}>
+            <a className="hover:scale-125" target="_blank">
               {handleIcon({
                 icon: 'twitter',
                 size: 16,
@@ -148,8 +148,8 @@ export const Bighead = () => {
               })}
             </a>
           </Link>
-          <Link href={'mailto:shambala2056team@gmail.com?subject=Subject&body=Body%20goes%20here'}>
-            <a className="hover:scale-125">
+          <Link href={'https://www.google.com/gmail/'}>
+            <a className="hover:scale-125" target="_blank">
               {handleIcon({
                 icon: 'mail',
                 size: 16,
@@ -158,7 +158,7 @@ export const Bighead = () => {
             </a>
           </Link>
           <Link href={'https://www.instagram.com/shambala2056/'}>
-            <a className="hover:scale-125">
+            <a className="hover:scale-125" target="_blank">
               {handleIcon({
                 icon: 'instagram',
                 size: 16,
